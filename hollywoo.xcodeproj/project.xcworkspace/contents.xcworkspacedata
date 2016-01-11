@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../MoviesViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:hollywoo.xcodeproj">
    </FileRef>
 </Workspace>
