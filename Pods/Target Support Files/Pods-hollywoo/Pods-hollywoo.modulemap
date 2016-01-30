@@ -1,0 +1,6 @@
+framework module Pods_hollywoo {
+  umbrella header "Pods-hollywoo-umbrella.h"
+
+  export *
+  module * { export * }
+}

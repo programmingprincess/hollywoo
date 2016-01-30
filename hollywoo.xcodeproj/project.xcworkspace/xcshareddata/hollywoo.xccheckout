@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D9C9F31-C30C-4EC9-8D8D-22F998A0D90E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>hollywoo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D42481982AD4EA616452176FACC796246C8CAA4</key>
+		<string>https://github.com/programmingprincess/hollywoo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>hollywoo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D42481982AD4EA616452176FACC796246C8CAA4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/programmingprincess/hollywoo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D42481982AD4EA616452176FACC796246C8CAA4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D42481982AD4EA616452176FACC796246C8CAA4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hollywoo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
