@@ -4,7 +4,8 @@
 use_frameworks!
 
 target 'hollywoo' do
-    pod ‘AFNetworking’
+    pod 'AFNetworking'
+    pod 'MBProgressHUD'
 end
 
 target 'hollywooTests' do
