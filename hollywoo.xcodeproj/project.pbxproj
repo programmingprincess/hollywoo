@@ -15,6 +15,7 @@
 		A906B2C01C435E7D00FB4BE6 /* hollywooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906B2BF1C435E7D00FB4BE6 /* hollywooTests.swift */; };
 		A945FA331C438184003B840A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945FA321C438184003B840A /* MoviesViewController.swift */; };
 		A97DB9161C5CB45000A08129 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DB9151C5CB45000A08129 /* MovieCell.swift */; };
+		A9C044561C6047D600C9657D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C044551C6047D600C9657D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A906B2BF1C435E7D00FB4BE6 /* hollywooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hollywooTests.swift; sourceTree = "<group>"; };
 		A945FA321C438184003B840A /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A97DB9151C5CB45000A08129 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		A9C044551C6047D600C9657D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				A945FA321C438184003B840A /* MoviesViewController.swift */,
+				A9C044551C6047D600C9657D /* DetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				A906B2AA1C435E7C00FB4BE6 /* AppDelegate.swift in Sources */,
 				A945FA331C438184003B840A /* MoviesViewController.swift in Sources */,
 				A97DB9161C5CB45000A08129 /* MovieCell.swift in Sources */,
+				A9C044561C6047D600C9657D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
