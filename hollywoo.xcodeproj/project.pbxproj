@@ -16,6 +16,7 @@
 		A945FA331C438184003B840A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945FA321C438184003B840A /* MoviesViewController.swift */; };
 		A97DB9161C5CB45000A08129 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97DB9151C5CB45000A08129 /* MovieCell.swift */; };
 		A9C044561C6047D600C9657D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C044551C6047D600C9657D /* DetailViewController.swift */; };
+		A9F6261B1C657DCA007E9B37 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = A9F6261A1C657DCA007E9B37 /* Icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A945FA321C438184003B840A /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A97DB9151C5CB45000A08129 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		A9C044551C6047D600C9657D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A9F6261A1C657DCA007E9B37 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		A906B29B1C435E7C00FB4BE6 = {
 			isa = PBXGroup;
 			children = (
+				A9F6261A1C657DCA007E9B37 /* Icons */,
 				A906B2A61C435E7C00FB4BE6 /* hollywoo */,
 				A906B2BC1C435E7D00FB4BE6 /* hollywooTests */,
 				A906B2A51C435E7C00FB4BE6 /* Products */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A906B2AF1C435E7C00FB4BE6 /* Main.storyboard in Resources */,
+				A9F6261B1C657DCA007E9B37 /* Icons in Resources */,
 				A906B2B41C435E7C00FB4BE6 /* LaunchScreen.xib in Resources */,
 				A906B2B11C435E7C00FB4BE6 /* Images.xcassets in Resources */,
 			);

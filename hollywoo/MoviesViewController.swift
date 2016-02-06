@@ -18,6 +18,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     //to get movies via API!
     //use questionmark to make movies "optional"...it can be nil too
     
+    var endpoint: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,10 +29,16 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: "refreshControlAction:", forControlEvents: UIControlEvents.ValueChanged)
         tableView.insertSubview(refreshControl, atIndex: 0)
-
+        
+        networkRequest()
+    }
+    
+    func networkRequest() {
         // Do any additional setup after loading the view.
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
-        let url = NSURL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")
+        let url = NSURL(string: "https://api.themoviedb.org/3/movie/\(endpoint)?api_key=\(apiKey)")
+        //endpoint string allows user to decide whether they want top rated movies or all movies to be displayd in tab navigation
+        
         let request = NSURLRequest(
             URL: url!,
             cachePolicy: NSURLRequestCachePolicy.ReloadIgnoringLocalCacheData,
