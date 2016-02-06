@@ -2,7 +2,7 @@
 
 **Hollywoo** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **5** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -18,24 +18,24 @@ The following **optional** features are implemented:
 - [ ] User sees an error message when there's a networking error.
 - [ ] Movies are displayed using a CollectionView instead of a TableView.
 - [ ] User can search for a movie.
-- [ ] All images fade in as they are loading.
-- [ ] Customize the UI.
+- [x] All images fade in as they are loading.
+- [x] Customize the UI: icons and spacing
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Low resolution images are loaded before the large resolution 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/Pf44mLJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/UfFSLJ0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One of the challenges I encountered was trying to incorporate icons into the app. I was unaware that Xcode didn't automatically reformat the icons, so I have to do the resizing myself through trial and error or through dimensions retrieved online. Another issue was the loading screen——it took awhile for me to get use to the way Cocoapods operated. 
 
 ## License
 
